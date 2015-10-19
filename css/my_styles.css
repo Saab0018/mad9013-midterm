@@ -159,9 +159,16 @@ img {
 	.masthead {
 		padding: 9rem;
 	}
-	.mainnav ul {
+	nav.mainnav ul {
 		width:25%;
 		float:left;
+		height:900px;
+		background-image: url(http://lorempixel.com/800/1000/cats/);
+		background-size: 90%; 
+        background-position: center;
+        background-repeat:no-repeat;
+		
+		
 	}
 	.content {
 		-webkit-column-count: 2;
