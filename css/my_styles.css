@@ -1,0 +1,179 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+	padding:0; 
+	margin:0; 
+	box-sizing:border-box;
+}
+
+body {
+  font-family: Roboto,sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-color: #D5F3FF;
+}
+h1, h2, h3{
+  margin: 8px 0 8px;
+  font-weight: inherit;
+  line-height: 40px;
+}
+p {
+	margin-bottom: 1.25rem;
+	text-align:justify;
+	line-height:24px;
+}
+h1 {
+	font-size: 40px;
+	
+	}
+h2 { 
+	font-size: 24px;
+	}
+h3 {
+	font-size: 24px;
+	} 
+.side p {
+	font-size: 12px;
+	}
+
+
+.masthead {
+	color: #EBEEFF;
+	background-image: url(http://lorempixel.com/600/400/cats/);
+	padding: 8rem;
+	background-size: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+	
+}
+
+
+.mainnav ul {
+	margin-top: 16px ;
+	list-style: none;
+	
+}
+.mainnav ul li a {
+	
+	display:block;
+	padding:1rem;
+	text-decoration:none;
+	background: #01047F;
+	color: white;
+	border-bottom:1px solid white;
+	text-align: center;
+	border-radius: 50px;
+	
+}
+nav.mainnav ul li a:hover {
+	background: #040003;
+}
+
+
+.content {
+	padding:16px;
+}
+
+
+.side {
+	padding:16px;
+}
+
+
+.footer {
+	clear:both;
+	padding:16px;
+	color:#333;
+}
+img {
+	border-radius: 30px;
+	max-width:100%;
+	padding: 0 0 16px 0;
+}
+	
+
+@media screen and (min-width: 35em) and (max-width: 60em){
+    h1 {
+		font-size: 45px;
+		}
+	h2 {
+		font-size: 35px;
+		}
+	h3 {
+		font-size: 30px;
+		}
+	
+	.side p {
+		font-size: 15px;
+		}
+	
+	.wrapper {
+		margin: 0 auto;
+	}
+	.mainnav ul {	
+		display:table;
+		table-layout:fixed;
+		width:100%;
+	}
+	.mainnav ul li {
+		display:table-cell;
+		width:25%;
+		text-align:center;
+	}
+	.content {
+		width:63%;
+		float:left;
+	}
+	.side {
+		width:37%;
+		float:left;
+	}
+}
+
+
+
+@media screen and (min-width: 60em) {
+	
+	h1 {
+		font-size: 60px;
+		}
+	h2 {
+		font-size: 35px;
+		}
+	h3 {
+		font-size: 30px;
+		}
+	 
+	 
+	.side p {
+	font-size: 15px;
+	}
+	
+	div.wrapper {
+		margin: 0 auto;
+		max-width:1600px;
+	}
+	.masthead {
+		padding: 9rem;
+	}
+	.mainnav ul {
+		width:25%;
+		float:left;
+	}
+	.content {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+		width:50%;
+		float:left;
+		
+	}
+	.side {
+		width:25%;
+		float:left;
+	}
+		
+}
